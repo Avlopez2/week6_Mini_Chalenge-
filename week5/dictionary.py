@@ -6,7 +6,7 @@ capitals = { "USA" : "Washignion DC ","India":"New Delhi","China":"Beijing"," Ru
 print(capitals.get("USA"))
 #print (capitals.get (japan)) - doesnt exist 
 if capitals.get("Ruissa"):
-print("that capital exist ")
+print ("that capital exist")
 else:
 print ("that capital doesn exist")
 capitals.update ({"Germany":"Berlin"})
@@ -18,14 +18,14 @@ capitals.popitem()
 capitaisl.clear () 
 # returns the keys ans not the values 
 keys = capitals.keys()
-for every key in capitals.key ()
+for keys in capitals.key ( )
 print(keys)
 #returns all values nd not keys 
 values = capitals.values()
 print ( values)
-for value on capitals.values :
-print(values)
+for value in capitals.values :
+print (values)
 capitals.items()
 print(items)
 for key, value in capitals.item ():
-print(f"{key}":"{value}")
+print (f"{key}":"{value}")
