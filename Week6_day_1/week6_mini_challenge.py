@@ -22,7 +22,8 @@ print(transportation_means)
 # cherry
 # watermelon
 list_of_fruits = [" apples", " banana", " mango", " cherry", "watermelon"]
-list_of_fruits.pop(2)
+list_of_fruits.pop()
+
 #######################################Dictionaries###############################
 # Dictionaries Practice #1
 # Create a dictionary called fruits with the following key-value pairs:
